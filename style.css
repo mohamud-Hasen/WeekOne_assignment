@@ -1,0 +1,124 @@
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    
+}
+
+header {
+    background-color: #454f6f;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-right: 50px;
+}
+
+header nav {
+   display: inline;
+   margin-right: 50px;
+    
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    font-family: Arial Bold, Arial, sans-serif;
+    padding: 20px;
+
+}
+
+.main {
+    padding: 20px;
+}
+
+.hero {
+    background-color: #e6834c;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+    margin-bottom: 20px;
+    border: 2px solid #ccc;
+    width: 100%;
+    height: 200px;
+}
+
+.content {
+    margin: 20px auto;
+    padding: 15px;
+    border: 1px solid #ddd;
+    max-width: 800px;
+   
+}
+.content h3, p{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    font-family: Arial Black, Gadget, sans-serif;
+}
+
+p {
+    font-family: Arial, sans-serif;
+}
+
+.highlight {
+    font-family: Arial Bold, Arial, sans-serif;
+}
+
+
+
+.footer {
+    background-color: #454f6f;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-right: 50px;
+}
+
+footer nav {
+   display: inline;
+   margin-right: 50px;
+    
+}
+
+footer nav a {
+    color: white;
+    text-decoration: none;
+    font-family: Arial Bold, Arial, sans-serif;
+    padding: 20px;
+
+}
+
+footer .copyright {
+    background-color: #e6834c;;
+    color: #ffff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+footer .copyright p{
+    margin-left: 300px;
+}
